@@ -8,7 +8,8 @@ import com.company.Task12.Task12;
 public class Main {
 
     public static void main(String[] args) {
-       /* new Task1().start();
+       /* 
+        new Task1().start();
         new Task2().start();
         new Task3().start();
         new Task4().start();
@@ -21,6 +22,6 @@ public class Main {
         new Task11().start();
         new Task12().start();
         new Task13().start();
-*/
+       */
     }
 }
