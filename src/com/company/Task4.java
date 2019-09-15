@@ -18,7 +18,5 @@ public class Task4 {
             System.out.println(a1==a2 ? a1+" = "+a2 : a1+" <> "+a2);
             System.out.printf("%d %s %d\n", a1n, a1n==a2n ? "=" : "<>", a2n);
         }
-
     }
 }
-;
