@@ -18,12 +18,12 @@ public class Task5 {
     StringBuilder reverseString(StringBuilder s) {
 
         int len = s.length()-1;
-        int i = len/2;
-        do{
+        int i = len/2+1;
+        while(--i>=0){
             char temp = s.charAt(i);
             s.setCharAt(i,s.charAt(len-i));
             s.setCharAt(len-i,temp);
-        }while(--i>=0);
+        }
         return s;
     }
 
