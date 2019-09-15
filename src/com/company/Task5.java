@@ -16,14 +16,15 @@ public class Task5 {
         return sb;
     }
 
-    StringBuilder reverseString(StringBuilder sb) {
+    StringBuilder reverseString(StringBuilder s) {
 
-        int len = sb.length()-1;
-        for (int i = 0; i<=len/2; i++){
-            char tmp = sb.charAt(i);
-            sb.setCharAt(i,sb.charAt(len-i));
-            sb.setCharAt(len-i,tmp);
-        }
+        int len = s.length()-1;
+        int i = len/2;
+        do{
+            char temp = s.charAt(i);
+            s.setCharAt(i,s.charAt(len-i));
+            s.setCharAt(len-i,temp);
+        }while(i-->=1);
         return sb;
     }
 
