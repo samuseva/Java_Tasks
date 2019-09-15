@@ -27,8 +27,8 @@ public class Task5 {
     }
 
     void start(){
-        int i=-1;
-        while (++i<10) {
+        int i=0;
+        while (i++<10) {
             StringBuilder s1 = stringBuilder(i);
             StringBuilder s2 = new StringBuilder().append(s1);
             reverseString(s2);
