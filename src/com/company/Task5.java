@@ -5,11 +5,11 @@ import java.util.Random;
 public class Task5 {
 
     StringBuilder randomString(int i){
-        StringBuilder s = new StringBuilder(i);
+        StringBuilder sb = new StringBuilder(i);
         Random random = new Random();
         while (--i>=0)
-            s.append((char)(random.nextInt(94)+32));
-        return s;
+            sb.append((char)(random.nextInt(94)+32));
+        return sb;
     }
 
     void reverseString(StringBuilder s) {
