@@ -7,7 +7,8 @@ public class Task4 {
         Random random = new Random();
         int arr1[] = new int[10];
         int arr2[] = new int[10];
-        for (int i = 0; i < 10; i=i+2) {
+        int i=-2;
+        while((i+=2)<10) {
             int a1 = arr1[i] = random.nextInt(9);
             int a1n = arr1[i+1] = random.nextInt(9);
             int a2 = arr2[i] = random.nextInt(9);
