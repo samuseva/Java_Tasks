@@ -21,13 +21,22 @@ public class Task5 {
             s.setCharAt(len-i,temp);
         }
     }
+    
+    StringBuilder reverseString(StringBuilder s) {
+        int i = s.length();
+        StringBuilder sb = new StringBuilder(i);
+        while(--i>=0)
+            sb.append(s.charAt(i));
+        return sb;
+    }
 
     void start(){
         int i=10;
         while (--i>0) {
             StringBuilder s1 = stringBuilder(i);
-            StringBuilder s2 = new StringBuilder().append(s1);
-            reverseString(s2);
+            StringBuilder s2 = reverseString(s1);
+            //StringBuilder s2 = new StringBuilder().append(s1);
+            //reverseString(s2);
             System.out.println(s1+" : "+s2);
             switch (i){
                 case 1 :
