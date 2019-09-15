@@ -6,14 +6,13 @@ public class Task5 {
 
     StringBuilder stringBuilder(int i){
 
-        StringBuilder sb = new StringBuilder(i);
+        StringBuilder s = new StringBuilder(i);
         Random ran = new Random();
 
-        while (--i >= 0){
-            sb.append((char)(ran.nextInt(94)+32));
+        while (--i>=0){
+            s.append((char)(ran.nextInt(94)+32));
         }
-
-        return sb;
+        return s;
     }
 
     StringBuilder reverseString(StringBuilder s) {
@@ -29,7 +28,8 @@ public class Task5 {
     }
 
     void start(){
-        for (int i = 1; i<10; i++){
+        int i=-1;
+        while (++i<10) {
             StringBuilder sb1 = stringBuilder(i);
             StringBuilder sb2 = reverseString(new StringBuilder().append(sb1));
             System.out.println(sb1+" : "+sb2);
@@ -47,9 +47,7 @@ public class Task5 {
                     break;
                 default:
                     System.out.println("Index more than Five");
-
             }
         }
-
     }
 }
