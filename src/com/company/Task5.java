@@ -24,7 +24,7 @@ public class Task5 {
             char temp = s.charAt(i);
             s.setCharAt(i,s.charAt(len-i));
             s.setCharAt(len-i,temp);
-        }while(i-->=1);
+        }while(--i>=0);
         return sb;
     }
 
