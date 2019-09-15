@@ -4,30 +4,30 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class Task3 {
     
-    void func(int i) {
+    void function(Integer i) {
         i = 20;
-        System.out.println("int = " + i);
+        System.out.println("Integer = " + i);
     }
     
-    void func(AtomicInteger i) {
+    void function(AtomicInteger i) {
         i.set(2000);
         System.out.println("AtomicInteger = " + i);
     }
     
     void start() {
-        int intVar = 10;
+        Integer intVar = new Integer(10);
         AtomicInteger atomicVar = new AtomicInteger(1000);
 
         System.out.println("Before Function");
-        System.out.println("int = " + intVar);
+        System.out.println("Integer = " + intVar);
         System.out.println("AtomicInteger = " + atomicVar);
 
         System.out.println("In Function");
-        func(intVar);
-        func(atomicVar);
+        function(intVar);
+        function(atomicVar);
 
         System.out.println("After Function");
-        System.out.println("int = " + intVar);
+        System.out.println("Integer = " + intVar);
         System.out.println("AtomicInteger = " + atomicVar);
     }
 }
