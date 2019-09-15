@@ -9,9 +9,8 @@ public class Task5 {
         StringBuilder s = new StringBuilder(i);
         Random random = new Random();
 
-        while (--i>=0){
+        while (--i>=0)
             s.append((char)(random.nextInt(94)+32));
-        }
         return s;
     }
 
@@ -27,8 +26,8 @@ public class Task5 {
     }
 
     void start(){
-        int i=0;
-        while (i++<10) {
+        int i=10;
+        while (--i<0) {
             StringBuilder s1 = stringBuilder(i);
             StringBuilder s2 = new StringBuilder().append(s1);
             reverseString(s2);
