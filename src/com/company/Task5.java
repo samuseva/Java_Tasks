@@ -15,7 +15,7 @@ public class Task5 {
         return s;
     }
 
-    StringBuilder reverseString(StringBuilder s) {
+    void reverseString(StringBuilder s) {
 
         int len = s.length()-1;
         int i = len/2+1;
@@ -30,9 +30,10 @@ public class Task5 {
     void start(){
         int i=-1;
         while (++i<10) {
-            StringBuilder sb1 = stringBuilder(i);
-            StringBuilder sb2 = reverseString(new StringBuilder().append(sb1));
-            System.out.println(sb1+" : "+sb2);
+            StringBuilder s1 = stringBuilder(i);
+            StringBuilder s2 = new StringBuilder().append(s1);
+            reverseString(s2);
+            System.out.println(s1+" : "+s2);
             switch (i){
                 case 1 :
                 case 2 :
