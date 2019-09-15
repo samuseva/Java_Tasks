@@ -7,10 +7,10 @@ public class Task5 {
     StringBuilder stringBuilder(int i){
 
         StringBuilder s = new StringBuilder(i);
-        Random ran = new Random();
+        Random random = new Random();
 
         while (--i>=0){
-            s.append((char)(ran.nextInt(94)+32));
+            s.append((char)(random.nextInt(94)+32));
         }
         return s;
     }
