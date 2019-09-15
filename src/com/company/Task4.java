@@ -5,12 +5,12 @@ import java.util.Random;
 public class Task4 {
     void start() {
         
-        int a1, a1n, a2, a2n, arrLength=10, i=-2;
+        int a1, a1n, a2, a2n, i=10;
         Random random = new Random();
-        int arr1[] = new int[arrLength];
-        int arr2[] = new int[arrLength];
+        int arr1[] = new int[i];
+        int arr2[] = new int[i];
         
-        while((i+=2)<arrLength) {              //Increment +2 until index < arrLen
+        while((i-=2)>=0) {              //Loop with decrement -2            
             a1 = arr1[i] = random.nextInt(9);
             a1n = arr1[i+1] = random.nextInt(9);
             a2 = arr2[i] = random.nextInt(9);
