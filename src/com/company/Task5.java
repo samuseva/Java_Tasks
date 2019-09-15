@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Task5 {
 
-    StringBuilder stringBuilder(int i){
+    StringBuilder randomString(int i){
         StringBuilder s = new StringBuilder(i);
         Random random = new Random();
         while (--i>=0)
@@ -33,7 +33,7 @@ public class Task5 {
     void start(){
         int i=10;
         while (--i>0) {
-            StringBuilder s1 = stringBuilder(i);
+            StringBuilder s1 = randomString(i);
             StringBuilder s2 = reverseString(s1);
             //StringBuilder s2 = new StringBuilder().append(s1);
             //reverseString(s2);
