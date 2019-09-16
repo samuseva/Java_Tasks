@@ -11,7 +11,7 @@ public class Task5 {
             sb.append((char)(random.nextInt(0x5e)+0x20));
         return sb;
     }
-
+    /*
     void reverseString(StringBuilder s) {
         int len = s.length();len--;
         int i = len>>1;i++;
@@ -21,7 +21,7 @@ public class Task5 {
             s.setCharAt(len-i,temp);
         }
     }
-    
+    */
     StringBuilder reverseString(StringBuilder s) {
         int i = s.length();
         StringBuilder sb = new StringBuilder(i);
