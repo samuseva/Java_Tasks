@@ -8,7 +8,7 @@ public class Task5 {
         StringBuilder sb = new StringBuilder(i);
         Random random = new Random();
         while (--i>=0)
-            sb.append((char)(random.nextInt(0x7e)+0x20));
+            sb.append((char)(random.nextInt(0x5e)+0x20));
         return sb;
     }
 
