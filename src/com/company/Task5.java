@@ -8,13 +8,13 @@ public class Task5 {
         StringBuilder sb = new StringBuilder(i);
         Random random = new Random();
         while (--i>=0)
-            sb.append((char)(random.nextInt(94)+32));
+            sb.append((char)(random.nextInt(0x7e)+0x20));
         return sb;
     }
 
     void reverseString(StringBuilder s) {
-        int len = s.length()-1;
-        int i = len/2+1;
+        int len = s.length();len--;
+        int i = len>>1;i++;
         while(--i>=0){
             char temp = s.charAt(i);
             s.setCharAt(i,s.charAt(len-i));
