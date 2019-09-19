@@ -7,8 +7,19 @@ public class Task5 {
     StringBuilder randomString(int i){
         StringBuilder sb = new StringBuilder(i);
         Random random = new Random();
-        while (--i>=0)
-            sb.append((char)(random.nextInt(0x5e)+0x20));
+        while (--i>=0){
+            switch(random.nextInt(3)){
+                case 0 :
+                    sb.append((char)(random.nextInt(26)+0x41));
+                    break;
+                case 1 :
+                    sb.append((char)(random.nextInt(26)+0x61));
+                    break;
+                case 2 :
+                    sb.append((char)(random.nextInt(10)+0x30));
+                    break;
+            }
+        }
         return sb;
     }
     /*
