@@ -21,10 +21,8 @@ public class Main {
         new Task8();
         new Task9();
         new Task10();
-        new Task11();
         new Task12();
         new Task13();
        */
-        new Task10();
     }
 }

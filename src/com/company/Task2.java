@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Task2 {
     Task2() {
 
-        ArrayList<Integer> arrayList = new ArrayList<Integer>();
+        ArrayList<Integer> arrayList = new ArrayList<>();
 
         int i = 0;          //List initialization
         while (++i<=10){
