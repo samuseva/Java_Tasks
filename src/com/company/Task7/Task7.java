@@ -2,37 +2,36 @@ package com.company.Task7;
 
 public class Task7 {
 
-    public class InnerClass{
-        InnerClass(){
-            System.out.println("Object of Inner Class");
-        }
-        void anonymous(){
-            System.out.println("Object of Inner Class");
-        }
-    }
-
-    public static class StaticInnerClass{
-        StaticInnerClass(){
-            System.out.println("Object of Static Inner Class");
-        }
-    }
+    private int privateVar = 100;
 
     public Task7(){
-        new InnerClass();
-        new StaticInnerClass();
 
-        ForAnonymous anonymous = new ForAnonymous(){
+        Enclosing.InnerClass i = new Enclosing().new InnerClass();              //Create object of InnerClass
+        Enclosing.StaticInnerClass s = new Enclosing.StaticInnerClass();     //Create object of StaticInnerClass
+
+        Enclosing e = new Enclosing(){                        //Create object of AnonymousClass
+
+            @Override
             void print(){
-                System.out.println("Object of Anonymous Class");
+                privateVar = 200;                  //Access to private elements of Task7 Class
+                enclosingLocal=200;
+                enclosingLocalStatic=200;
+                System.out.println("Object of Anonymous Class." +
+                        "\n\tPrivate variable of Task7 Class = "+privateVar+
+                        "\n\tLocal variable of Enclosing Class = "+enclosingLocal+
+                        "\n\tLocal Static variable of Enclosing Class = "+enclosingLocalStatic
+                );
             }
         };
-        anonymous.print();
+        e.print();
 
         class LocalClass{
             LocalClass(){
-                System.out.println("Object of Local Class");
+                privateVar = 300;                  //Access to private elements of Task7 Class
+                System.out.println("Object of Local Class." +
+                        "\n\tPrivate variable of Task7 Class = "+privateVar);
             }
         }
-        new LocalClass();
+        LocalClass l = new LocalClass();                       //Create object of LocalClass
     }
 }
