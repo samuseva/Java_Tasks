@@ -4,6 +4,7 @@ import com.company.Task6.Task6;
 import com.company.Task7.Task7;
 import com.company.Task12.Task12;
 import com.company.Task8.Task8;
+import com.company.Task9.Task9;
 
 
 public class Main {
