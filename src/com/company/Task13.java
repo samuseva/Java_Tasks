@@ -3,7 +3,7 @@ package com.company;
 import java.io.*;
 
 public class Task13 {
-    void start() {
+    Task13() {
         BufferedReader br = null;
         String str = null;
         try {

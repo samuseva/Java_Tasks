@@ -3,7 +3,7 @@ package com.company;
 import com.company.Modificators.Modificators;
 
 public class Task1 {
-    void start() {
+    Task1() {
         Modificators modificators = new Modificators();
 
         modificators.pubVar=100;     //correct

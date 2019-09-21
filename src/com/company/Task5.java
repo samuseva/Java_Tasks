@@ -41,7 +41,7 @@ public class Task5 {
         return sb;
     }
 
-    void start(){
+    Task5(){
         int i=10;
         while (--i>0) {
             StringBuilder s1 = randomString(i);

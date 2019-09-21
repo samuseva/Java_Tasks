@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Task6 {
 
-    public void start(){
+    public Task6(){
         List<Cat> cat= new ArrayList<>(
                 List.of(
                 new Cat(30,"First"),

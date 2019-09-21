@@ -10,20 +10,20 @@ public class Main {
 
     public static void main(String[] args) {
        /* 
-        new Task1().start();
-        new Task2().start();
-        new Task3().start();
-        new Task4().start();
-        new Task5().start();
-        new Task6().start();
-        new Task7().start();
-        new Task8().start();
-        new Task9().start();
-        new Task10().start();
-        new Task11().start();
-        new Task12().start();
-        new Task13().start();
+        new Task1();
+        new Task2();
+        new Task3();
+        new Task4();
+        new Task5();
+        new Task6();
+        new Task7();
+        new Task8();
+        new Task9();
+        new Task10();
+        new Task11();
+        new Task12();
+        new Task13();
        */
-        new Task6().start();
+        new Task10();
     }
 }

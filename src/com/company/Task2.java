@@ -3,7 +3,7 @@ package com.company;
 import java.util.ArrayList;
 
 public class Task2 {
-    void start() {
+    Task2() {
 
         ArrayList<Integer> arrayList = new ArrayList<Integer>();
 

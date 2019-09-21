@@ -17,7 +17,7 @@ public class Task7 {
         }
     }
 
-    public void start(){
+    public Task7(){
         new InnerClass();
         new StaticInnerClass();
 

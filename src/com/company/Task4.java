@@ -3,7 +3,7 @@ package com.company;
 import java.util.Random;
 
 public class Task4 {
-    void start() {
+    Task4 (){
         
         int i=10;
         Random random = new Random();

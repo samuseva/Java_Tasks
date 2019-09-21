@@ -7,7 +7,7 @@ public class Task12 {
         if (arg2 == 0) throw new DivNull("Second argument equals 0.");
         return arg1 / arg2;
     }
-    public void start(){
+    public Task12(){
         double arr[][]={{4,3}, {-2,1}, {0,1}, {6, -1}, {4,0}};
         for(double d[] :arr) {
             try {

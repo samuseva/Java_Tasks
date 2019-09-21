@@ -13,8 +13,8 @@ public class Task3 {
         i.set(2000);
         System.out.println("AtomicInteger = " + i);
     }
-    
-    void start() {
+
+    Task3() {
         Integer intVar = new Integer(10);
         AtomicInteger atomicVar = new AtomicInteger(1000);
 
