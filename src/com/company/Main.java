@@ -24,6 +24,5 @@ public class Main {
         new Task12();
         new Task13();
        */
-        new Task7();
     }
 }
