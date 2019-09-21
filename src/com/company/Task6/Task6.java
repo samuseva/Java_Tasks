@@ -7,12 +7,12 @@ import java.util.List;
 public class Task6 {
 
     public void start(){
-        List<Cat> cat= new ArrayList<Cat>();
-        cat.add(new Cat(30,"First"));
-        cat.add(new Cat(20,"Second"));
-        cat.add(new Cat(10,"Third"));
-        cat.add(new Cat(20,"Fourth"));
-        cat.add(new Cat(50,"Fifth"));
+        List<Cat> cat= new ArrayList<>(List.of(
+                new Cat(30,"First"),
+                new Cat(20,"Second"),
+                new Cat(10,"Third"),
+                new Cat(20,"Fourth"),
+                new Cat(50,"Fifth")));
 
         Collections.sort(cat);
         System.out.println("Ascending");

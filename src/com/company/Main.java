@@ -24,5 +24,6 @@ public class Main {
         new Task12().start();
         new Task13().start();
        */
+        new Task6().start();
     }
 }

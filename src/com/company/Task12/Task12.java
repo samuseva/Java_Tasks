@@ -2,9 +2,9 @@ package com.company.Task12;
 
 public class Task12 {
     double dividing(double arg1, double arg2) throws NegParam, DivNull{
-        if (arg1 < 0) throw new NegParam();
-        if (arg2 < 0) throw new NegParam();
-        if (arg2 == 0) throw new DivNull();
+        if (arg1 < 0) throw new NegParam("One of arguments have negative value.");
+        if (arg2 < 0) throw new NegParam("One of arguments have negative value.");
+        if (arg2 == 0) throw new DivNull("Second argument equals 0.");
         return arg1 / arg2;
     }
     public void start(){
@@ -13,11 +13,9 @@ public class Task12 {
             try {
                 System.out.println(dividing(d[0],d[1]));
             }catch (NegParam e){
-                System.out.println("One of arguments have negative value.");
-                continue;
+                System.err.println(e);
             }catch (DivNull e){
-                System.out.println("Second argument equals 0.");
-                continue;
+                System.err.println(e);
             }
 
         }

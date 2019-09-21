@@ -17,21 +17,21 @@ public class Task11 {
             hash.add(s);
             tree.add(s);
         }
-        Iterator iList = list.iterator();
-        Iterator iHash = hash.iterator();
-        Iterator iTree = tree.iterator();
+        Iterator itList = list.iterator();
+        Iterator itHash = hash.iterator();
+        Iterator itTree = tree.iterator();
 
         System.out.println("List of ArrayList");
-        while(iList.hasNext()){
-            System.out.println(iList.next());
+        while(itList.hasNext()){
+            System.out.println(itList.next());
         }
         System.out.println("List of HashSet");
-        while(iHash.hasNext()){
-            System.out.println(iHash.next());
+        while(itHash.hasNext()){
+            System.out.println(itHash.next());
         }
         System.out.println("List of TreeSet");
-        while(iTree.hasNext()){
-            System.out.println(iTree.next());
+        while(itTree.hasNext()){
+            System.out.println(itTree.next());
         }
     }
 }
