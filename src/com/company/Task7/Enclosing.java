@@ -10,7 +10,7 @@ public class Enclosing {
 
     public class InnerClass{
         int innerClass = 10;
-        //static int innerStatic  = 10; Inner classes cannot have static declaration
+        //static int innerStatic  = 10;     Inner classes cannot have static declaration
         void innerClassMethod(){
             enclosingPrivate = 20;
             enclosingPrivateStatic = 20;
