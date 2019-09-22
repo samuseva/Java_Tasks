@@ -6,8 +6,14 @@ public class Task7 {
 
     public Task7(){
 
-        Enclosing.InnerClass i = new Enclosing().new InnerClass();              //Create object of InnerClass
-        Enclosing.StaticInnerClass s = new Enclosing.StaticInnerClass();     //Create object of StaticInnerClass
+        Enclosing.InnerClass i = new Enclosing().new InnerClass();          //Create object of InnerClass
+        i.innerClassMethod();
+        System.out.println("\tInnerClass = "+(i.innerClass=20));
+
+        Enclosing.StaticInnerClass s = new Enclosing.StaticInnerClass();    //Create object of StaticInnerClass
+        s.staticInnerClassMethod();
+        System.out.println("\tInnerClass = "+(s.innerClass=20));
+        System.out.println("\tInnerClassStatic = "+(s.innerClassStatic=20));
 
         Enclosing e = new Enclosing(){                        //Create object of AnonymousClass
 

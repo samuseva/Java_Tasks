@@ -23,6 +23,6 @@ public class Main {
         new Task10();
         new Task12();
         new Task13();
-       */
+       */new Task7();
     }
 }
