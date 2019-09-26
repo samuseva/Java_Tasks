@@ -10,7 +10,7 @@
 Объявить переменную типа Modificators и создать объект.
 
 <a href=/src/com/company/Task2.java>Task2</a><br>
-<b>Добавление в List<Integer> нельзя List<int>:</b>
+<b>Добавление в List&gtInteger> нельзя List<int>:</b>
 	
 Создать список объектов типа Integer.
 Заполнить список объектами Integer и простыми типами int.
