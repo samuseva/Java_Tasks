@@ -1,4 +1,4 @@
-<a href=/src/com/company/Task1.java>Task1</a><br>
+<a href=src/com/company/Task1.java>Task1</a><br>
 <b>Задание на public, protected, private:</b>
 
 Создать класс Modificators в пакете, отличном от Main класса с несколькими полями:<br>
@@ -9,7 +9,7 @@
 Порверить корректность конфигурирования/видимость полей из main и других классов(создать при необходимости).
 Объявить переменную типа Modificators и создать объект.
 
-<a href=/src/com/company/Task2.java>Task2</a><br>
+<a href=src/com/company/Task2.java>Task2</a><br>
 <b>Добавление в List Integer>, нельзя List int>:</b>
 	
 Создать список объектов типа Integer.
@@ -20,14 +20,14 @@
 	Вывести в консоль тип текущего значения из списка.
 Все объекты одного типа? Почему возможно положить простой тип в список? Возможно ли положить Integer в int?
 
-<a href=/src/com/company/Task3.java>Task3</a><br>
+<a href=src/com/company/Task3.java>Task3</a><br>
 <b>Передачи параметра по ссылке и по значению:</b>
 
 Написать два метода для иллюстрации передачи значения параметра по ссылке и по значению.
 Распечатка значений до вызова метода, в методе и после вызова.
 Должны показывать как меняются/неменяются значения переменных.
 
-<a href=/src/com/company/Task4.java>Task4</a><br>
+<a href=src/com/company/Task4.java>Task4</a><br>
 <b>Тернарный оператор: Условие ? Значение1 : Значение2</b>
 
 Создать два массива размером 10.
@@ -38,7 +38,7 @@
 Четные индексы через метод String.format(..).
 Выбор знака сравнения через тернарный оператор.
 
-<a href=/src/com/company/Task5.java>Task5</a><br>
+<a href=src/com/company/Task5.java>Task5</a><br>
 <b>Сгенерировать String, перевернуть:</b>
 
 Написать метод принимающий аргумент типа int и возвращающий строку случайных букв, длиной равной аргументу метода.
@@ -51,7 +51,7 @@
 В конце итерации (через switch) для индексов от 0 до 3(включительно) выводить "индекс - 'номер индекса цифрой'".
 Для 4 - 5 "индекс четыре", "индекс пять" соответственно. Для остальных "индекс больше пяти".
 
-<a href=/src/com/company/Task6>Task6</a><br>
+<a href=src/com/company/Task6>Task6</a><br>
 <b>Comparator vs Comparable:</b>
 
 Создать интерфейс Animal с методом voice.
@@ -63,7 +63,7 @@
 Доавить несколько объектов.
 Отсортировать 2-я способами Collections.sort(list) и Collections.sort(list, comparator).
 
-<a href=/src/com/company/Task7>Task7</a><br>
+<a href=src/com/company/Task7>Task7</a><br>
 <b>Inner, Nested, Anonymous и Local классы:</b>
 
 Написать и создать объекты внутреннего класса,
@@ -72,12 +72,12 @@
 локального класса.
 (классы Продукт и Тип продукта)
 
-<a href=/src/com/company/Task8>Task8</a><br>
+<a href=src/com/company/Task8>Task8</a><br>
 <b>Задание на final:</b>
 
 Создать класс с неизменяемыми полями и проинициализировать их.
 
-<a href=/src/com/company/Task9>Task9</a><br>
+<a href=src/com/company/Task9>Task9</a><br>
 <b>Задание на Enum:</b>
 
 Создать enum для времени суток, с полями name String, startHour и endHour типа int
@@ -85,7 +85,7 @@
 Переопределить метод toString() для возврата "Время 'имя объекта' с 'start' до 'end'".
 Создать объекты утро и вечер и вывести с помощью System.out.println()
 
-<a href=/src/com/company/Task10.java>Task10</a><br>
+<a href=src/com/company/Task10.java>Task10</a><br>
 <b>Задание на Collection и Iterator:</b>
 
 Создать списки для List, HashSet, SortedSet.
@@ -93,7 +93,7 @@
 Вывести получившиеся списки. Причина различия выведенных данных?
 Выполнить итерации по спискам из предыдущего задания с использованием итератора.
 
-<a href=/src/com/company/Task12>Task12</a><br>
+<a href=src/com/company/Task12>Task12</a><br>
 <b>Задание на Exceptions:</b>
 
 Написать метод принимающий два аргумента типа double.
@@ -101,7 +101,7 @@
 	Создать собсвенный класс непроверяемого исключения - деление на ноль запрещено.
 	В методе выбрасывать проверяемое исключение, если один из аргументов < 0. Непроверяемое, если второй аргумент == 0.
 
-<a href=/src/com/company/Task13.java>Task13</a><br>
+<a href=src/com/company/Task13.java>Task13</a><br>
 <b>Задание на ввод/вывод. Чтение из файла:</b>
 
 В цикле сделать вызов меотда и вывод в консоль результатов вызова метода,
