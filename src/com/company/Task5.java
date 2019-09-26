@@ -16,12 +16,12 @@ public class Task5 {
     }
     /*
     void reverseString(StringBuilder s) {
-        int len = s.length();len--;
-        int i = len>>1;i++;
-        while(--i>=0){
-            char temp = s.charAt(i);
-            s.setCharAt(i,s.charAt(len-i));
-            s.setCharAt(len-i,temp);
+        int len = arr.length;
+        int i = len >> 1; len--;
+        while(i-->0){
+            arr[i]^=arr[len-i];
+            arr[len-i]^=arr[i];
+            arr[i]^=arr[len-i];
         }
     }
     */
