@@ -1,6 +1,4 @@
-<a href=/src/com/company/Task1.java>Task1</a>
-
-Задание на модификаторы доступа: public, protected, private:
+<a href=/src/com/company/Task1.java>Task1</a> - Задание на модификаторы доступа: public, protected, private:
 
 Создать класс Modificators в пакете, отличном от Main класса с несколькими полями:<br>
 	поле доступно напрямую
