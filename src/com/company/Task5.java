@@ -9,7 +9,7 @@ public class Task5 {
     StringBuilder randomString(int i){
         StringBuilder sb = new StringBuilder(i);
         Random random = new Random();
-        while (--i>=0){
+        while (i-->0){
             sb.append(alphanumeric.charAt(random.nextInt(62)));
         }
         return sb;
@@ -28,7 +28,7 @@ public class Task5 {
     StringBuilder reverseString(StringBuilder s) {
         int i = s.length();
         StringBuilder sb = new StringBuilder(i);
-        while(--i>=0)
+        while(i-->0)
             sb.append(s.charAt(i));
         return sb;
     }
