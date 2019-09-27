@@ -16,15 +16,16 @@ public class Task6 {
                 new Cat(50,"Fifth")
                 )
         );
-
+        
+//      Arrays.sort(cat);
         Collections.sort(cat);
         System.out.println("Ascending");
         for (Cat c: cat){
             System.out.println(c.age+"  "+c.name);
         }
-
-        System.out.println("Descending");
+        
         Collections.sort(cat,new CatComparator());
+        System.out.println("Descending");
         for (Cat c: cat){
             System.out.println(c.age+"  "+c.name);
         }
