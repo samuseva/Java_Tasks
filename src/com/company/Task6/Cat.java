@@ -5,9 +5,6 @@ public class Cat implements Comparable<Cat> {
     int age;
     String name;
 
-    public void voice() {
-        System.out.println("Voice method override");
-    }
     Cat(int age, String name){
         this.age = age;
         this.name = name;
