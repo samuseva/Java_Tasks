@@ -1,6 +1,6 @@
 package com.company.Task6;
 
-public class Cat extends AbstractAnimal implements Comparable<Cat> {
+public class Cat implements Comparable<Cat> {
 
     int age;
     String name;
