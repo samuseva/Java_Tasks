@@ -86,7 +86,7 @@ Task9<br>
 Создать объекты утро и вечер и вывести с помощью System.out.println()
 
 Task10<br>
-<a href=src/com/company/Task10.java>Задание на Collection и Iterator:</a>
+<a href=src/com/company/Task10>Задание на Collection и Iterator:</a>
 
 Создать списки для List, HashSet, SortedSet.
 Заполнить значениями из ("abc", "cba", "Bca", "bca", "Abc", "ABc", "acb", "bca", "abc").
