@@ -15,7 +15,7 @@ public class Task3 {
     }
 
     Task3() {
-        Integer intVar = new Integer(10);
+        Integer intVar = 10;
         AtomicInteger atomicVar = new AtomicInteger(1000);
 
         System.out.println("Before Function");

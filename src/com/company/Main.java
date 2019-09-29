@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.Task10.Task10;
 import com.company.Task6.Task6;
 import com.company.Task7.Task7;
 import com.company.Task12.Task12;
@@ -23,6 +24,7 @@ public class Main {
         new Task10();
         new Task12();
         new Task13();
-       */new Task7();
+       */
+       new Task10();
     }
 }
