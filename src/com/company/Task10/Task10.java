@@ -14,8 +14,8 @@ public class Task10 {
     
     /*                  Или так
     ArrayList<String> list = new ArrayList<>();     list.addAll(l);
-    HashSet<String>   hash = new HashSet<>();         hash.addAll(l);
-    TreeSet<String>   tree = new TreeSet<>();         tree.addAll(l);
+    HashSet<String>   hash = new HashSet<>();       hash.addAll(l);
+    TreeSet<String>   tree = new TreeSet<>();       tree.addAll(l);
     */
     
     /*                  Или так
