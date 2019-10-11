@@ -5,11 +5,24 @@ import java.util.*;
 public class Task10 {
 
     String str[] = {"abc", "cba", "Bca", "bca", "Abc", "ABc", "acb", "bca", "abc"};
-
+    
+    List<String> l = Arrays.asList(str);
+    
+    ArrayList<String> list = new ArrayList<>(l);
+    HashSet<String> hash = new HashSet<>(l);
+    TreeSet<String> tree = new TreeSet<>(l);
+    
+    /*                  Или так
+    ArrayList<String> list = new ArrayList<>();     list.addAll(l);
+    HashSet<String> hash = new HashSet<>();         hash.addAll(l);
+    TreeSet<String> tree = new TreeSet<>();         tree.addAll(l);
+    */
+    
+    /*                  Или так
     ArrayList<String> list = new ArrayList<>(Arrays.asList(str));
     HashSet<String> hash = new HashSet<>(Arrays.asList(str));
     TreeSet<String> tree = new TreeSet<>(Arrays.asList(str));
-
+    */
     void print(Iterator it) {
         while (it.hasNext()) {
             System.out.println(it.next());
