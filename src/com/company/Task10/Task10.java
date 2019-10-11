@@ -30,11 +30,11 @@ public class Task10 {
     }
 
     HashSet<Hash> hash1 = new HashSet<>(
-            List.of(
-                    new Hash(1,10,"Masha"),//hashCode = id, equals = age
-                    new Hash(1,20,"Kolya"),//Kolya has the same id with Masha, but different age. Present in the same bucket.
-                    new Hash(1,10,"Sasha") //Sasha has the same id and age with Masha. Is absent in List.
-            )
+        List.of(
+            new Hash(1,10,"Masha"),//hashCode = id, equals = age
+            new Hash(1,20,"Kolya"),//Kolya has the same id with Masha, but different age. Present in the same bucket.
+            new Hash(1,10,"Sasha") //Sasha has the same id and age with Masha. Is absent in List.
+        )
     );
 
     TreeSet<Tree> tree1 = new TreeSet<>();        //Class Tree must be Comparable<>
