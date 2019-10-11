@@ -15,14 +15,16 @@ public class Task5 {
         return sb;
     }
     /*
-    void reverseString(StringBuilder s) {
-        int len = arr.length;
-        int i = len >> 1; len--;
+    void reverse_Array() {
+        int x[]={2,3,4,5};
+        int len = x.length;
+        int i=len>>1; len--;
         while(i-->0){
-            arr[i]^=arr[len-i];
-            arr[len-i]^=arr[i];
-            arr[i]^=arr[len-i];
+            x[i]^=x[len-i];
+            x[len-i]^=x[i];
+            x[i]^=x[len-i];
         }
+        System.out.println(Arrays.toString(x));
     }
     */
     StringBuilder reverseString(StringBuilder s) {
