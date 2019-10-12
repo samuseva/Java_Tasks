@@ -20,8 +20,7 @@ public class Task5 {
         int len = x.length;
         int i=len>>1; len--;
         while(i-->0){
-            x[i]^=x[len-i];
-            x[len-i]^=x[i];
+            x[len-i]^=(x[i]^=x[len-i]);
             x[i]^=x[len-i];
         }
         System.out.println(Arrays.toString(x));
