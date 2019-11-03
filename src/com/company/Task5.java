@@ -18,12 +18,13 @@ public class Task5 {
     StringBuilder reverseString(StringBuilder stringBuilder) {
         char[] x = stringBuilder.toString().toCharArray();
         
+        char[] x="Hello world".toCharArray();
         int l,i=(l=x.length)>>1;l--;
         while(i-->0){
             x[l-i]^=(x[i]^=x[l-i]);
             x[i]^=x[l-i];
         }
-        
+        System.out.print(x);
         return new StringBuilder(String.valueOf(x));
     }
     */
