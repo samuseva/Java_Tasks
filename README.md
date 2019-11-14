@@ -1,5 +1,5 @@
 Task1<br>
-<a href=src/com/company/Task1.java>Задание на public, protected, private:</a>
+<a href=src/com/company/Task1.java>public, protected, private:</a>
 
 Создать класс Modificators в пакете, отличном от Main класса с несколькими полями:<br>
 	поле доступно напрямую
@@ -10,7 +10,7 @@ Task1<br>
 Объявить переменную типа Modificators и создать объект.
 
 Task2<br>
-<a href=src/com/company/Task2.java>Добавление в List Integer>, нельзя List int>:</a>
+<a href=src/com/company/Task2.java>&lt;List Integer>, нельзя List int>:</a>
 	
 Создать список объектов типа Integer.
 Заполнить список объектами Integer и простыми типами int.
