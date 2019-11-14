@@ -10,7 +10,7 @@ Task1<br>
 Объявить переменную типа Modificators и создать объект.
 
 Task2<br>
-<a href=src/com/company/Task2.java>&lt;List Integer>, нельзя List int>:</a>
+<a href=src/com/company/Task2.java>&lt;List Integer&gt;, нельзя List &lt;int&gt;:</a>
 	
 Создать список объектов типа Integer.
 Заполнить список объектами Integer и простыми типами int.
@@ -73,12 +73,12 @@ Task7<br>
 (классы Продукт и Тип продукта)
 
 Task8<br>
-<a href=src/com/company/Task8>Задание на final:</a>
+<a href=src/com/company/Task8>Final:</a>
 
 Создать класс с неизменяемыми полями и проинициализировать их.
 
 Task9<br>
-<a href=src/com/company/Task9>Задание на Enum:</a>
+<a href=src/com/company/Task9>Enum:</a>
 
 Создать enum для времени суток, с полями name String, startHour и endHour типа int
 (Morning с 6 до 10, Day с 10 до 5, Evening с 5 до 9, Night с 9 до 6).
@@ -94,7 +94,7 @@ Task10<br>
 Выполнить итерации по спискам из предыдущего задания с использованием итератора.
 
 Task12<br>
-<a href=src/com/company/Task12>Задание на Exceptions:</a>
+<a href=src/com/company/Task12>Exceptions:</a>
 
 Написать метод принимающий два аргумента типа double.
 	Создать собственный класс проверяемого исключения - выбрасывается в случае, если аргумент < 0.
@@ -102,7 +102,7 @@ Task12<br>
 	В методе выбрасывать проверяемое исключение, если один из аргументов < 0. Непроверяемое, если второй аргумент == 0.
 
 Task13<br>
-<a href=src/com/company/Task13.java>Задание на ввод/вывод. Чтение из файла:</a>
+<a href=src/com/company/Task13.java>Ввод/вывод. Чтение из файла:</a>
 
 В цикле сделать вызов меотда и вывод в консоль результатов вызова метода,
 для аргументов (4,2), (-2,1), (0,1), (6, -1), (4,0).
