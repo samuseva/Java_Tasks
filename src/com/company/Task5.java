@@ -9,16 +9,15 @@ public class Task5 {
     StringBuilder randomString(int i){
         StringBuilder sb = new StringBuilder(i);
         Random random = new Random();
-        while (i-->0){
+        while (i-->0)
             sb.append(alphanumeric.charAt(random.nextInt(62)));
-        }
         return sb;
     }
     /*
     StringBuilder reverseString(StringBuilder stringBuilder) {
         char[] x = stringBuilder.toString().toCharArray();
         
-        char[] x="Hello world".toCharArray();
+        char[] x= "Hello world".toCharArray();
         int l,i=(l=x.length)>>1;l--;
         while(i-->0){
             x[l-i]^=(x[i]^=x[l-i]);
@@ -38,7 +37,7 @@ public class Task5 {
 
     Task5(){
         int i=10;
-        while (--i>0) {
+        while (i-->1) {
             StringBuilder s1 = randomString(i);
             StringBuilder s2 = reverseString(s1);
             //StringBuilder s2 = new StringBuilder().append(s1);
