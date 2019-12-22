@@ -24,9 +24,8 @@ public class Task10 {
     TreeSet<String>   tree = new TreeSet  <>(Arrays.asList(str));
     */
     void print(Iterator it) {
-        while (it.hasNext()) {
+        while (it.hasNext())
             System.out.println(it.next());
-        }
     }
 
     HashSet<Hash> hash1 = new HashSet<>(
