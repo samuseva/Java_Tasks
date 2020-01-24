@@ -17,7 +17,8 @@ public class Task6 {
                 )
         );
         
-//      Arrays.sort(cat);
+//      cat.sort(Cat::compareTo);        
+//      Arrays.sort(cat); Arrays.sort(cat, Comparator<? super Cat>);
         Collections.sort(cat);
         System.out.println("Ascending");
         for (Cat c: cat){
