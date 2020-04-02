@@ -9,8 +9,8 @@ Task1
 Порверить корректность конфигурирования/видимость полей из main и других классов(создать при необходимости).
 Объявить переменную типа Modificators и создать объект.
 
-Task2<br>
-<a href=src/com/company/Task2.java>List &lt;Integer&gt;, нельзя List &lt;int&gt;:</a>
+Task2  
+[List <Integer>, нельзя List &lt;int&gt;:](src/com/company/Task2.java)
 	
 Создать список объектов типа Integer.
 Заполнить список объектами Integer и простыми типами int.
