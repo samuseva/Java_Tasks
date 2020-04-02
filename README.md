@@ -1,4 +1,4 @@
-Task1 
+Task1  
 [Public, protected, private:](src/com/company/Task1.java)
 
 Создать класс Modificators в пакете, отличном от Main класса с несколькими полями:<br>
