@@ -25,6 +25,9 @@ public class Task5 {
         System.out.print(x);
         return new StringBuilder(String.valueOf(x));
     }
+Числа Фибоначчи: for(int n1,n2=(n1=1); n1<1000; System.out.println((n1+=n2) +" "+ (n2+=n1)))
+Простое ли число х?: for(int n=x/2; (x%n)!=0; n--)
+Факториал: for(int n,s=(n=1); (++n)<10 ;System.out.println(s*=n))
     */
     StringBuilder reverseString(StringBuilder s) {
         StringBuilder sb = new StringBuilder();
