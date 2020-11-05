@@ -17,9 +17,8 @@ public class Task5 {
         char[] x = stringBuilder.toString().toCharArray();
         
         char[] x= "Hello world".toCharArray();
-        int l=x.length, i=l/2;
-        l--;
-        while(i-->0){
+        int l=x.length-1;
+        for(int i=(l+1)/2; i>0; i--){
             x[i]^=x[l-i];
             x[l-i]^=x[i];
             x[i]^=x[l-i];
