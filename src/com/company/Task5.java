@@ -9,7 +9,8 @@ public class Task5 {
     StringBuilder randomString(int i){
         StringBuilder sb = new StringBuilder(i);
         Random random = new Random();
-        for (; i-- > 0; sb.append(alphanumeric.charAt(random.nextInt(62))));
+        while (i-- > 0)
+            sb.append(alphanumeric.charAt(random.nextInt(62))));
         return sb;
     }
     /*
