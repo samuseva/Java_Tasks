@@ -14,21 +14,21 @@ public class Task5 {
     }
     /*
     StringBuilder reverseString(StringBuilder stringBuilder) {
-        char[] x = stringBuilder.toString().toCharArray();
+        char[] a = stringBuilder.toString().toCharArray();
         
-        char[] x= "Hello world".toCharArray();
-        int l=x.length-1;
-        for(int i=(l+1)/2; i>0; i--){
-            x[i]^=x[l-i];
-            x[l-i]^=x[i];
-            x[i]^=x[l-i];
+        char[] a = "Hello world".toCharArray();
+        int len = a.length-1;
+        for (int i = (len+1)/2; i > 0; i--){
+            a[i] ^= a[len-i];
+            a[len-i] ^= a[i];
+            a[i] ^= a[len-i];
         }
-        System.out.print(x);
-        return new StringBuilder(String.valueOf(x));
+        System.out.print(a);
+        return new StringBuilder(String.valueOf(a));
     }
-Числа Фибоначчи: for(int n1=1, n2=1; n1<1000; System.out.println((n1+=n2) +" "+ (n2+=n1)))
-Простое ли число х?: for(int n=x/2; (x%n)!=0; n--)
-Факториал: for(int n=1, s=1; (++n)<10 ;System.out.println(s*=n))
+Числа Фибоначчи: for (int n1 = 1, n2 = 1; n1 < 1000; System.out.println((n1+=n2) +" "+ (n2+=n1)))
+Простое ли число х?: for (int n = x/2; (x%n) != 0; n--)
+Факториал: for (int n = 1, s = 1; ++n < 10; System.out.println( s*=n ))
     */
     StringBuilder reverseString(StringBuilder s) {
         StringBuilder sb = new StringBuilder();
