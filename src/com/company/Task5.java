@@ -13,24 +13,45 @@ public class Task5 {
             sb.append(alphanumeric.charAt(random.nextInt(62))));
         return sb;
     }
-    /*
-    StringBuilder reverseString(StringBuilder stringBuilder) {
-        char[] a = stringBuilder.toString().toCharArray();
-        
-        char[] a = "Hello world".toCharArray();
-        int len = a.length-1;
-        for (int i = (len+1)/2; i > 0; i--){
-            a[i] ^= a[len-i];
-            a[len-i] ^= a[i];
-            a[i] ^= a[len-i];
-        }
-        System.out.print(a);
-        return new StringBuilder(String.valueOf(a));
-    }
+/*
+Перевернуть строку:
+	String str = "Hello world";
+	char[] a = str.toCharArray();
+	int len = a.length-1;
+	for (int i = (len+1)/2; i > 0; i--){
+		a[i]^= a[len-i];
+		a[len-i]^= a[i];
+		a[i]^= a[len-i];
+	}
 Числа Фибоначчи: for (int n1 = 1, n2 = 1; n1 < 1000; System.out.println((n1+=n2) +" "+ (n2+=n1)))
 Простое ли число х?: for (int n = x/2; (x%n) != 0; n--)
 Факториал: for (int n = 1, s = 1; ++n < 10; System.out.println( s*=n ))
-    */
+Задача со скобками:
+	[]()[][()] -- true
+	[[(())]]   -- true
+	[[[]]  -- false
+	]][[   -- false
+	[]]    -- false
+	[(])   -- false
+
+boolean foo()
+	String str = "...";
+	Stack<Character> s = new Stack<>();
+	for(char c : str.toCharArray())
+		switch(c)
+			case ']':
+				if (s.empty() || s.pop() != '[')
+					return false;
+				break;
+			case ')':
+				if (s.empty() || s.pop() != '(')
+					return false;
+				break;
+			case '[':
+			case '(':
+				s.push(c);
+	return s.empty();
+*/
     StringBuilder reverseString(StringBuilder s) {
         StringBuilder sb = new StringBuilder();
         for (int i = s.length(); i-- > 0; sb.append(s.charAt(i)));
