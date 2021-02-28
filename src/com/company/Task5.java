@@ -15,9 +15,8 @@ public class Task5 {
     }
 /*
 Перевернуть строку:
-	String str = "Hello world";
-	char[] a = str.toCharArray();
-	int len = a.length-1;
+	char[] a = "Hello world".toCharArray();
+	int len = a.length - 1;
 	for (int i = (len+1)/2; i > 0; i--){
 		a[i]^= a[len-i];
 		a[len-i]^= a[i];
