@@ -23,9 +23,9 @@ public class Task5 {
 		a[len-i]^= a[i];
 		a[i]^= a[len-i];
 	}
-Числа Фибоначчи: for (int n1 = 1, n2 = 1; n1 < 1000; System.out.println((n1+=n2) +" "+ (n2+=n1)))
+Числа Фибоначчи: for (int n1 = n2 = 1; n1 < 1000; System.out.println((n1+=n2) + (n2+=n1)))
 Простое ли число х?: for (int n = x/2; (x%n) != 0; n--)
-Факториал: for (int n = 1, s = 1; ++n < 10; System.out.println( s*=n ))
+Факториал: for (int n = s = 1; ++n < 10; System.out.println( s*=n ))
 Задача со скобками:
 	[]()[][()] -- true
 	[[(())]]   -- true
